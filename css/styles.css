@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Noto+Serif:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,200&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,500&display=swap');
+
+:root{
+    --primary-color: #03a9f4;
+    --secondary-color: #ff5722;
+    --tertiary-color: #d6e92d;
+    --cor-de-fundo: #7dd1eb;
+    --cor-de-fundo2: #e4dbdb;
+
+    --font-title: 'Lora', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-header{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+h1{
+    font-family: var(--font-title);
+    font-size: 40pt;
+    text-shadow: 1px 1px 2px  white;
+}
+
+#web{
+    font-size: 50pt;
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 2px  var(--tertiary-color);
+}
+
+#dogs{
+    font-size: 50pt;
+    color: var(--tertiary-color);
+    text-shadow: 1px 1px 2px  var(--secondary-color);
+}
+
+#container-header .input-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    width: 40px;
+    height: 35px;
+    background-color: var(--secondary-color);
+    border: none; 
+    position: absolute; 
+    cursor: pointer;
+    border-radius: 8px;
+    left: 66.9%;
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.fa-sharp {
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    color: var(--cor-de-fundo2);
+    
+}
+
+#inputNome{
+    margin-top: 30px;
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--cor-de-fundo2);
+    font-size: 14pt;
+    padding-left: 7px;
+}
+
+#container-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#result-nome{
+    width: 300px;
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--font-title);
+}
+
+h3{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 45pt;
+    text-transform: capitalize;
+}
+
+#imgpatas {
+    transform: rotate(90deg);
+}
+  
+
+#result-img{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
